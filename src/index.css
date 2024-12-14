@@ -1,0 +1,300 @@
+@tailwind base;
+
+
+@tailwind components;
+
+
+
+
+
+html {
+    @apply font-IranSans
+
+    
+}
+ .MuiTabs-flexContainer{
+    background: rgb(99,151,191);
+    background: linear-gradient(90deg, rgba(99,151,191,1) 6%, rgba(12,27,65,1) 75%);
+ }
+
+
+
+
+::-webkit-scrollbar {
+    width: 8px;
+    border-top-left-radius:  4px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #b7d4e4;
+    
+  }
+
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #84d9df;
+  }
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'FontIos';
+    src: local('FontIos'), url(./fonts/FontIos.ttf) format('truetype');
+  }
+
+  
+@font-face {
+    font-family: 'IranSans_Light';
+    src: local('IranSans_Light'), url(./fonts/IRANSans_Light.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'IranSans_Bold';
+    src: local('IranSans_Bold'), url(./fonts/IRANSans_Bold.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'iranSans_Medium';
+    src: local('iranSans_Medium'), url(./fonts/IRANSans_Medium.ttf) format('truetype');
+  }
+
+
+
+  @font-face {
+    font-family: 'Calibri';
+    src: local('Calibri'), url(./fonts/Calibri.otf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'CalibriBold';
+    src: local('CalibriBold'), url(./fonts/Calibri_Bold.otf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'CalibriLight';
+    src: local('CalibriLight'), url(./fonts/Calibri_Light.otf) format('truetype');
+  }
+
+@font-face {
+    font-family: 'iphoneBold';
+    src: local('iphoneBold'), url(./fonts/Ios15Bold.ttf) format('truetype');
+};
+
+@font-face {
+    font-family: 'ios';
+    src: local('ios'), url(./fonts/Ios15Heavy.ttf) format('truetype');
+};
+
+
+
+
+@font-face {
+    font-family: 'iphoneMedium';
+    src: local('iphoneMedium'), url(./fonts/Ios15Medium.ttf) format('truetype');
+};
+
+@font-face {
+    font-family: 'iphone';
+    src: local('iphone'), url(./fonts/FontIos15.ttf) format('truetype');
+};
+
+
+@font-face {
+    font-family: 'IosUltralight';
+    src: local('IosUltralight'), url(./fonts/IosUltralight.ttf) format('truetype');
+};
+
+
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+
+.slick-slide {
+    
+
+    margin-right:2px;
+    margin-left:2px;
+    
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.slider-container {
+    height: auto;
+}
+
+.MuiInputBase-root {
+    font-family: 'IranSans_Light' !important ;
+}
+
+.MuiInputLabel-root{
+    font-family:  'IranSans_Light' !important;
+}
+
+#demo-helper-text-misaligned-no-helper-label{
+    font-family:  'IranSans_Light' !important; 
+
+ 
+   
+}
+.MuiTabs-root{
+   border-radius: 0 !important;
+   background-color: #0c1b41 ;
+   color: red !important;
+}
+.MuiTabs-indicator{
+    background-color : black !important;
+ 
+    
+   
+}
+.Mui-selected{
+    background-color: #94a3b8 !important;
+    
+}
+.MuiTabs-flexContainer{
+    border-radius: 0 !important; 
+}
+
+#filled-number-label{
+    font-family:  'IranSans_Light' !important;
+    justify-content: 'right';
+}
+
+#outlined-select-currency-label{
+    font-family:  'IranSans_Light' !important;
+}
+
+#MuiSelect-select{
+    font-family:  'IranSans_Light' !important;
+}
+
+#MuiInputBase-input{
+    font-family:  'IranSans_Light' !important;
+}
+
+
+
+#MuiInputBase-root{
+    color:  red;
+}
+
+
+.MuiTextField-root{
+    color:  red;
+    border-radius: '50px';
+}
+
+#MuiFormControlLabel-label{
+    font-size: '300px';
+}
+
+
+.css-1ftddnh-MuiButtonBase-root-MuiButton-root.MuiButton-colorPrimary {
+    border-color: #b7d4e4;
+    background-color: #d9eef8;
+    color: #7796ab;
+}
+
+#css-piperi-MuiButtonBase-root-MuiMenuItem-root {
+    font-family: 'IranSans_Light' !important;
+}
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+    min-height: auto;
+    font-family: 'IranSans_Light' !important;
+}
+
+.css-1sf6pmm-MuiButtonBase-root-MuiMenuItem-root {
+        min-height: auto;
+        font-family: 'IranSans_Light' !important;
+}
+
+/* 
+.css-1w10rh9-MuiGauge-container text{
+    display: none;
+} */
+
+.highcharts-title{
+    display:  none !important;
+}
+
+
+
+
+.search{
+    border: none;
+    outline:  none;
+}
+
+.highcharts-caption{
+    color:  red;
+}
+.highcharts-yaxis-labels-text {
+    color: red;
+    fill: red;
+}
+
+.MuiGauge-valueText{
+    display: none;
+}
+
+.css-pochro-MuiGauge-referenceArc {
+    fill: #c8e4fb;
+}
+
+.highcharts-yaxis{
+    display: none;
+}
+
+
+html {
+
+    scroll-behavior: smooth !important;
+}
+
+html, body { 
+    scroll-behavior: smooth
+  }
+
+.MuiBadge-colorSuccess{
+   color: red;
+}
+.MuiBadge-root{
+    color: red;
+    
+}
+.MuiBadge-badge{
+    background-color: #a3f39a !important; 
+    color: black !important;
+    font-family:  'IranSans_Light' !important;
+}
+.css-pochro-MuiGauge-referenceArc {
+    fill: #89dee0 !important;
+}
+
